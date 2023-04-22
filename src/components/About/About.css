@@ -1,0 +1,80 @@
+
+
+.hb{
+   
+    text-align: center;
+    justify-content: center;
+    color: rgb(113, 96, 153);
+    
+}
+.h2b{
+    max-width: 485px;
+    color:rgb(94, 84, 145);
+    
+}
+.h2b2{
+    max-width: 485px;
+    margin-top: 25px;
+    margin-right: 20px;
+  color:  rgb(43, 43, 90);
+}
+.al{
+    margin-left: 80px;
+    display: flex;
+}
+.line{
+    height: 180px;
+    background-color: rgb(255, 71, 25);
+    width: 4px;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.maina{
+    background-image: url(../../Assets/about.jpg);
+    height: 639px;
+    width: 100%;
+}
+.h1b{
+    margin-left: 80px;
+    color: rgb(255, 71, 25);
+}
+
+
+  .imgl{
+    height: 200px;
+    width: 200px;
+  }
+@media screen and (max-width:768px) {
+    .al{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+   .line{
+    rotate: 90deg;
+    margin-left: 180px;
+    margin-top: -160px;
+    height: 350px;
+   }
+   .maina{
+    overflow-y: scroll;
+    
+   }
+   .h2b2{
+    margin-top: -150px;
+   }
+   .h1b{
+   margin-left: 50px;
+   }
+   .hb{
+   margin-left: 10px;
+   }
+
+    
+
+
+
+}
+
+

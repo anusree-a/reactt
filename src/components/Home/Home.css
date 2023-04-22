@@ -1,0 +1,79 @@
+.hy{
+    margin-left: 400px;
+    margin-top: -150px;
+}
+.paragra{
+    margin-left: 400px;
+    max-width: 400px;
+}
+.ann{
+    margin-left: 400px;
+    color: rgb(228, 28, 78);
+}
+.mh{
+    
+    background-image: url(../../Assets/home.jpg);
+    height: 639px;
+    width: 100%;
+    overflow-y: hidden;
+}
+.im1{
+  height: 200px;
+  width: 200px;
+  border-radius: 500px;
+  margin-left: 950px;
+  
+  box-shadow: 0 0 40px rgb(189, 233, 189);
+
+  
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+      animation: App-logo-spin  infinite 20s linear;
+      
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .logo{
+    height: 150px;
+    width: 150px;
+     margin-left: 150px;
+  }
+  @media screen and (max-width:768px) {
+   .hy{
+    margin-left: 50px;
+   }
+  .ann{
+    margin-left: 50px;
+  }
+  .paragra{
+    margin-left: 50px;
+  }
+  .mh{
+   display: flex;
+   flex-direction: column;
+  }
+  .im1{
+   margin-left: 250px;
+   margin-top: 50px;
+   scale: 0.8;
+  }
+  .logo{
+    margin-left: 150px;
+  }
+    
+
+
+
+}
+
+

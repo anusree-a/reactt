@@ -1,0 +1,79 @@
+.mhc{
+   text-align: center;
+   justify-content: center;
+    color: purple;
+}
+.btn{
+    height: 35px;
+   margin-left: 570px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color:purple;
+    border: 2px solid pink;
+}
+.btn:hover{
+     background-color: transparent;
+
+}
+.input{
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+}
+.ib1{
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    background: transparent;
+    border: solid purple;
+}
+.cb1{
+    height: 80px;
+    width: 400px;
+    border-radius: 15px;
+    background: transparent;
+    border: solid purple;
+}
+.ico{
+    scale: 2;
+    gap: 40px;
+    color: purple;
+    margin-left: 40px;
+ 
+    
+}
+.icons{
+    
+     text-align: center;
+     justify-content: center;
+     margin-right: 40px;
+    
+
+   
+}
+.ico:hover{
+    scale:2.8;
+}
+.mc{
+    background-image: url(../../Assets/contact.jpg);
+    height: 639px;
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .mhc{
+        text-align: center;
+        justify-content: center;
+    }
+    .btn{
+        margin-left: 220px;
+    }
+    .mc{
+        height: 760px;
+    }
+
+
+}
